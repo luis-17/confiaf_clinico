@@ -143,7 +143,7 @@ function enviar_mail_paciente($tipo, $citaPaciente){
   $mail->SetFrom(SMTP_USERNAME,$setFromAleas);
   $mail->AddReplyTo(SMTP_USERNAME,$setFromAleas);
 
-  $mail->Subject = 'NOTIFICACIÓN HOSPITAL VILLA SALUD';
+  $mail->Subject = 'NOTIFICACIÓN HOSPITAL CONFIAF';
 
   $cuerpo = '<html> 
       <head>
@@ -151,7 +151,7 @@ function enviar_mail_paciente($tipo, $citaPaciente){
       </head>
       <body style="font-family: sans-serif;padding: 10px 40px;" > 
       <div style="text-align: right;">
-        <img style="width: 160px;" alt="Hospital Villa Salud" src="'.base_url('assets/img/dinamic/empresa/gm_small.png').'">
+        <img style="width: 160px;" alt="Hospital CONFIAF" src="'.base_url('assets/img/dinamic/empresa/gm_small.png').'">
         </div> <br />';
   $cuerpo .= '<div style="font-size:16px;">  
           Estimado(a) paciente: '. $citaPaciente['paciente'].' <br /> <br /> ';

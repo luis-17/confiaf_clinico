@@ -594,7 +594,7 @@
           $this->SetFont('Arial','B',10); 
           $this->Cell(30,6,'PROCEDENCIA: ','LB','','',1); 
           $this->SetFont('Arial','',10); 
-          $this->Cell(100,6,'HOSPITAL VILLA SALUD','B','','',1); 
+          $this->Cell(100,6,'HOSPITAL CONFIAF','B','','',1); 
           $this->SetFont('Arial','B',10); 
           $this->Cell(18,6,utf8_decode('F. IMP.:'),'B','','',1);
           $this->SetFont('Arial','',10); 

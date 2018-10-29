@@ -765,7 +765,7 @@ class OrdenCompra extends CI_Controller {
 		$mail->Password = SMTP_PASSWORD;
 		$mail->SetFrom(SMTP_USERNAME,$setFromAleas);
 		$mail->AddReplyTo(SMTP_USERNAME,$setFromAleas);
-		$mail->Subject = 'ENVÍO DE ORDEN DE COMPRA APROBADA - VILLA SALUD';
+		$mail->Subject = 'ENVÍO DE ORDEN DE COMPRA APROBADA - CONFIAF';
 
 		$cuerpo = '<html> 
 			<head>
@@ -773,7 +773,7 @@ class OrdenCompra extends CI_Controller {
 			</head>
 			<body style="font-family: sans-serif;padding: 10px 40px;" > 
 			<div style="text-align: right;">
-				<img style="width: 160px;" alt="Hospital Villa Salud" src="'.base_url('assets/img/dinamic/empresa/'.$arrConfig['nombre_logo']).'">
+				<img style="width: 160px;" alt="Hospital CONFIAF" src="'.base_url('assets/img/dinamic/empresa/'.$arrConfig['nombre_logo']).'">
 			</div> <br />';
 		$cuerpo .= '<div style="font-size:16px;">  
 				Estimado: <br /> <br /> 
@@ -987,7 +987,7 @@ class OrdenCompra extends CI_Controller {
 				</head>
 				<body style="font-family: sans-serif;padding: 10px 40px;" > 
 				<div style="text-align: right;">
-					<img style="width: 160px;" alt="Hospital Villa Salud" src="'.base_url('assets/img/dinamic/empresa/'.$arrConfig['nombre_logo']).'">
+					<img style="width: 160px;" alt="Hospital CONFIAF" src="'.base_url('assets/img/dinamic/empresa/'.$arrConfig['nombre_logo']).'">
 				</div> <br />';
 			
 			// $cuerpo .='</tbody> </table>';

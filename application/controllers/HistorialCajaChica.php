@@ -378,7 +378,7 @@ class HistorialCajaChica extends CI_Controller {
 				</head>
 				<body style="font-family: sans-serif;padding: 10px 40px;" > 
 				<div style="text-align: right;">
-					<img style="width: 160px;" alt="Hospital Villa Salud" src="'.base_url('assets/img/dinamic/empresa/'.$arrConfig['nombre_logo']).'">
+					<img style="width: 160px;" alt="Hospital CONFIAF" src="'.base_url('assets/img/dinamic/empresa/'.$arrConfig['nombre_logo']).'">
 				</div> <br />';
 			$cuerpo .= '<h2> CONTROL DE MOVIMIENTOS DE CAJA CHICA </h2> <br />'; 
 			$cuerpo .= '<div style="font-size:16px;">  

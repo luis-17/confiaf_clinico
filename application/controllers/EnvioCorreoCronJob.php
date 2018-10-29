@@ -37,9 +37,9 @@ class EnvioCorreoCronJob extends CI_Controller {
 			$mail->Port = SMTP_PORT;
 			$mail->Username =  SMTP_USERNAME;
 			$mail->Password = SMTP_PASSWORD;
-			$mail->SetFrom('alertas@villasalud.pe','Alertas Villa Salud');
-			$mail->AddReplyTo('alertas@villasalud.pe',"Alertas Villa Salud");
-			$mail->Subject = 'RECORDATORIO DE ONOMÁSTICOS DE COLABORADORES - VILLA SALUD';
+			$mail->SetFrom('alertas@villasalud.pe','Alertas CONFIAF');
+			$mail->AddReplyTo('alertas@villasalud.pe',"Alertas CONFIAF");
+			$mail->Subject = 'RECORDATORIO DE ONOMÁSTICOS DE COLABORADORES - CONFIAF';
 
 			$cuerpo = '
 				<html>
@@ -48,7 +48,7 @@ class EnvioCorreoCronJob extends CI_Controller {
 				</head>
 				<body style="font-family: sans-serif;background-color: #f5f5f5;padding: 40px;" >
 					<div style="text-align: center;">
-						<img style="width: 14%;" alt="Hospital Villa Salud" src="'.base_url('assets/img/dinamic/empresa/'.$arrConfig['nombre_logo']).'">
+						<img style="width: 14%;" alt="Hospital CONFIAF" src="'.base_url('assets/img/dinamic/empresa/'.$arrConfig['nombre_logo']).'">
 					</div>
 					<h2 style="text-align: center; text-transform: uppercase;">¡Estos son los Colaboradores que cumplen años hoy: 
 						<small style="text-align: center; display: block; font-size: 24px; color: #a41d23;"> '.darFechaCumple(date('Y-m-d')).' </small> </h2>

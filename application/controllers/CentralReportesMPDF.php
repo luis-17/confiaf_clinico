@@ -7741,7 +7741,7 @@ class CentralReportesMPDF extends CI_Controller {
     $this->pdf->Ln();
 
     $this->pdf->SetFont('Arial','',10); 
-    $this->pdf->Cell(87,5,utf8_decode('VILLA SALUD - VILLA EL SALVADOR')); 
+    $this->pdf->Cell(87,5,utf8_decode('CONFIAF - VILLA EL SALVADOR')); 
     $this->pdf->Cell(15,5,utf8_decode('Fecha')); 
     $this->pdf->Cell(2,5,':');
     $this->pdf->Cell(30,5,formatoFechaReporte3($receta['fecha_receta']),0);
@@ -7830,7 +7830,7 @@ class CentralReportesMPDF extends CI_Controller {
     $this->pdf->SetXY(152,$y);
 
     $this->pdf->SetFont('Arial','',10); 
-    $this->pdf->Cell(87,5,utf8_decode('VILLA SALUD - VILLA EL SALVADOR')); 
+    $this->pdf->Cell(87,5,utf8_decode('CONFIAF - VILLA EL SALVADOR')); 
     $this->pdf->Cell(15,5,utf8_decode('Fecha')); 
     $this->pdf->Cell(2,5,':');
     $this->pdf->Cell(30,5,formatoFechaReporte3($receta['fecha_receta']));

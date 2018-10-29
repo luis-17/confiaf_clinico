@@ -978,7 +978,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   x: -20 //center
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {},
@@ -1040,7 +1040,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   x: -20 //center
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {},
@@ -1095,7 +1095,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   x: -20 //center
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {},
@@ -1156,7 +1156,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   x: -20 //center
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {},
@@ -1214,7 +1214,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   x: -20 //center
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {},
@@ -1281,7 +1281,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   x: -20 //center
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {},
@@ -1336,7 +1336,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   text: 'PRODUCTOS VENDIDOS POR ESPECIALIDAD: '+$scope.fBusqueda.especialidad.descripcion,
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {
@@ -1525,7 +1525,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                     pointFormat: '<b>{series.name}: {point.percentage:.1f}% </b><br> Cant. de Personas {point.y} de {series.total} </b> '
                 },
                 credits: {
-                  text:'Hospital Villa Salud'
+                  text:'Hospital CONFIAF'
                 },
                 plotOptions: {
                     pie: {
@@ -1589,7 +1589,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                     valueSuffix: ' atenciones '
                 },
                 credits: {
-                  text:'Hospital Villa Salud'
+                  text:'Hospital CONFIAF'
                 },
                 legend: {
                   layout: 'vertical',
@@ -2164,7 +2164,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   x: -20 //center
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {},
@@ -2442,7 +2442,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   x: -20 //center
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {},
@@ -2545,7 +2545,7 @@ angular.module('theme.centralReportes', ['theme.core.services','ngAnimate', 'ui.
                   x: -20 //center
                 },
                 subtitle: {
-                  text: 'Fuente: Villa Salud',
+                  text: 'Fuente: CONFIAF',
                   x: -20
                 },
                 xAxis: {},

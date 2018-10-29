@@ -239,7 +239,7 @@ class ComprobanteWeb extends CI_Controller {
 		define('SMTP_HOST','mail.villasalud.pe');
 		$correo = 'sistemas.ti@villasalud.pe';
 		$pass = 'franzsheskoli';
-		$setFromAleas = 'Villa Salud';
+		$setFromAleas = 'CONFIAF';
 
 		define('SMTP_PORT',25);
 		define('SMTP_USERNAME',$correo);
@@ -260,17 +260,17 @@ class ComprobanteWeb extends CI_Controller {
 		$archivo = 'https://citasenlinea.villasalud.pe/comprobantesWeb/' . $allInputs['nombre_archivo'];
 		$mail->addStringAttachment(file_get_contents($archivo), 'ComprobantePago.pdf');
 
-		$mail->Subject = 'Comprobante de Pago - Hospital Villa Salud';
+		$mail->Subject = 'Comprobante de Pago - Hospital CONFIAF';
 
 		$cuerpo = '<!DOCTYPE html>
 					<html lang="es">
 					<head>
 					    <meta charset="utf-8">
-					    <meta name="author" content="Villa Salud">								    
+					    <meta name="author" content="CONFIAF">								    
 					</head>';
         $cuerpo .= '<body style="font-family: sans-serif;padding: 10px 40px;" > 
 	                  <div style="text-align: center;">
-	                    <img style="max-width: 800px;" alt="Hospital Villa Salud" src="https://citasenlinea.villasalud.pe/assets/img/dinamic/empresa/header-mail.jpg">
+	                    <img style="max-width: 800px;" alt="Hospital CONFIAF" src="https://citasenlinea.villasalud.pe/assets/img/dinamic/empresa/header-mail.jpg">
 	                  </div>';
 	    $cuerpo .= '  <div style="max-width: 780px;align-content: center;margin-left: auto; margin-right: auto;padding-left: 5%; padding-right: 5%;">';
         $cuerpo .= '  <div style="font-size:16px;">  
@@ -293,7 +293,7 @@ class ComprobanteWeb extends CI_Controller {
         $cuerpo .=    '</div>';
   	
 	    $cuerpo .= '<div style="text-align: center;">
-	    				<img style="max-width: 800px;" alt="Hospital Villa Salud" src="https://citasenlinea.villasalud.pe/assets/img/dinamic/empresa/footer-mail.jpg">
+	    				<img style="max-width: 800px;" alt="Hospital CONFIAF" src="https://citasenlinea.villasalud.pe/assets/img/dinamic/empresa/footer-mail.jpg">
 	    			</div>';
       	$cuerpo .= '</body>';
         $cuerpo .= '</html>';

@@ -9,7 +9,7 @@ class MYPDF extends TCPDF {
         // Set font
         $this->SetFont('helvetica', 'I', 8);
         // Page number
-        $foot = 'Hospital Villa Salud';
+        $foot = 'Hospital CONFIAF';
         $foot2 = 'Teléfonos: (01) 713-0044';
         $foot3 = 'Juan Velasco Alvarado Cdra 01 Frente a la Sunat,';
         $foot4 = 'Entrada del parque industrial - Villa El Salvador';

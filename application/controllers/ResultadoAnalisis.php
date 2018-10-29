@@ -616,7 +616,7 @@ class ResultadoAnalisis extends CI_Controller {
 
 		$htmlData .= '<tr> <td class="det"> Médico: </td> <td colspan="3" >  </td> <td class="det" style="min-width:100px;"> Hist. Clín.: </td> <td> '.$allInputs['idhistoria'].' </td></tr>';
 		
-		$htmlData .= '<tr> <td class="det" style="width:100px"> Procedencia: </td> <td colspan="3" > HOSPITAL VILLA SALUD </td> ';
+		$htmlData .= '<tr> <td class="det" style="width:100px"> Procedencia: </td> <td colspan="3" > HOSPITAL CONFIAF </td> ';
     	$htmlData .= '</table></div>';
     	$htmlData .= '<div class="caja"><table style="width:100%;" width="600" class="tableTitulo" border="1">';
     	$htmlData .= '<thead><tr style="font-weight: 600"> <th class="col_examen" style="text-align:center;"> Examen </th> <th class="col_resultado" style="text-align:left;">  Resultado </th> <th class="col_valor_normal" style="text-align:left;">  Valor Normal </th> <th class="" style="text-align:left;">  Método </th></tr></thead>';
