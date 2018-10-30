@@ -3159,11 +3159,11 @@ fieldset[disabled] .btn-success.active {
   background-color: #ffffff;
 }
 .btn-info {
-  background-color: #00bcd4 !important;
-  border-color: #00bcd4 !important;
+  background-color: #0051FF !important;
+  border-color: #0051FF !important;
   color: #ffffff;
-  background-color: #00bcd4;
-  border-color: #00bcd4;
+  background-color: #0051FF;
+  border-color: #0051FF;
 }
 .btn-info:hover,
 .btn-info:focus,
@@ -3198,11 +3198,11 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #00bcd4;
-  border-color: #00bcd4;
+  background-color: #0051FF;
+  border-color: #0051FF;
 }
 .btn-info .badge {
-  color: #00bcd4;
+  color: #0051FF;
   background-color: #ffffff;
 }
 .btn-info:hover,
@@ -3238,11 +3238,11 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #00bcd4;
-  border-color: #00bcd4;
+  background-color: #0051FF;
+  border-color: #0051FF;
 }
 .btn-info .badge {
-  color: #00bcd4;
+  color: #0051FF;
   background-color: #ffffff;
 }
 .btn-info:hover {
@@ -3277,11 +3277,11 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #00bcd4;
-  border-color: #00bcd4;
+  background-color: #0051FF;
+  border-color: #0051FF;
 }
 .btn-info .badge {
-  color: #00bcd4;
+  color: #0051FF;
   background-color: #ffffff;
 }
 .btn-warning {
@@ -5123,7 +5123,7 @@ a.label:focus {
   background-color: #71a436;
 }
 .label-info {
-  background-color: #00bcd4;
+  background-color: #0051FF;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
@@ -5250,7 +5250,7 @@ a.badge:focus {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #00bcd4;
+  background-color: #0051FF;
 }
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -8516,9 +8516,9 @@ fieldset[disabled] .btn-success-alt.active {
   border-width: 1px 1px 1px 1px;
 }
 .btn-info-alt {
-  color: #00bcd4;
+  color: #0051FF;
   background-color: rgba(255, 255, 255, 0);
-  border-color: #00bcd4;
+  border-color: #0051FF;
   border-width: 1px;
   border-style: solid;
   -webkit-box-shadow: none;
@@ -8528,8 +8528,8 @@ fieldset[disabled] .btn-success-alt.active {
 .btn-info-alt:focus,
 .btn-info-alt:active,
 .btn-info-alt.active {
-  border-color: #00bcd4;
-  background-color: #00bcd4;
+  border-color: #0051FF;
+  background-color: #0051FF;
   color: #fff;
 }
 .btn-info-alt.disabled,
@@ -8551,7 +8551,7 @@ fieldset[disabled] .btn-info-alt:active,
 .btn-info-alt.disabled.active,
 .btn-info-alt[disabled].active,
 fieldset[disabled] .btn-info-alt.active {
-  border-color: #00bcd4;
+  border-color: #0051FF;
   background-color: #007888;
   color: #fff;
 }
@@ -13441,7 +13441,7 @@ body.topnav-collapsed header.navbar.navbar-default .navbar-collapse .open .tt-dr
   background-color: #71a436;
 }
 .badge-info {
-  background-color: #00bcd4;
+  background-color: #0051FF;
 }
 .badge-info[href]:hover,
 .badge-info[href]:focus {
@@ -13539,7 +13539,7 @@ body.topnav-collapsed header.navbar.navbar-default .navbar-collapse .open .tt-dr
   background-color: #71a436;
 }
 .sidebar nav.widget-body > ul.acc-menu .badge.badge-info {
-  background-color: #00bcd4;
+  background-color: #0051FF;
 }
 .sidebar nav.widget-body > ul.acc-menu .badge.badge-info[href]:hover,
 .sidebar nav.widget-body > ul.acc-menu .badge.badge-info[href]:focus {
@@ -17639,7 +17639,7 @@ body.topnav-collapsed header.navbar.navbar-default .navbar-collapse .open .tt-dr
   color: rgba(197, 202, 233, 0.5);
 }
 #topnav.navbar-cyan {
-  background: #00bcd4;
+  background: #0051FF;
 }
 #topnav.navbar-cyan .logo-area .toolbar-trigger a span.icon-bg {
   background-color: #26c6da;
@@ -17707,11 +17707,11 @@ body.topnav-collapsed header.navbar.navbar-default .navbar-collapse .open .tt-dr
 #topnav.navbar-cyan a.username:hover,
 #topnav.navbar-cyan a.username:focus,
 #topnav.navbar-cyan a.username:visited {
-  background-color: #00bcd4;
+  background-color: #0051FF;
 }
 #topnav.navbar-cyan #toolbar-search .input-group-btn button,
 #topnav.navbar-cyan #toolbar-search .form-control {
-  background: #00bcd4;
+  background: #0051FF;
   color: #b2ebf2;
 }
 #topnav.navbar-cyan #toolbar-search .input-group-btn button i,
@@ -21576,8 +21576,8 @@ ul .panel .panel-heading h2 {
   border-color: #dd191d;
 }
 .panel.panel-danger .panel-heading {
-  color: #1CA2BB;
-  background-color: #1CA2BB;
+  color: #0800FE;
+  background-color: #0800FE;
   border-color: #005E7C;
 }
 .panel.panel-danger .panel-heading h2 {
@@ -21607,7 +21607,7 @@ ul .panel .panel-heading h2 {
 }
 .panel.panel-info .panel-heading {
   color: #e0f7fa;
-  background-color: #00bcd4;
+  background-color: #0051FF;
   border-color: #00acc1;
 }
 .panel.panel-info .panel-heading h2 {
@@ -22421,7 +22421,7 @@ ul .panel .panel-heading h2 {
   text-align: center;
 }
 span[data-style="panel-info"] {
-  background-color: #00bcd4;
+  background-color: #0051FF;
 }
 span[data-style="panel-primary"] {
   background-color: #03a9f4;
@@ -22666,7 +22666,7 @@ span[data-style="panel-brown"] {
   color: #f69988 !important;
 }
 .info-tile.info-tile-alt.tile-info {
-  background: #00bcd4;
+  background: #0051FF;
 }
 .info-tile.info-tile-alt.tile-info .tile-heading {
   color: #b2ebf2;
@@ -23178,16 +23178,16 @@ span[data-style="panel-brown"] {
   border-bottom-color: #8bc34a;
 }
 .tab-info.tab-container > .nav-tabs > li.active > a {
-  border-top-color: #00bcd4;
+  border-top-color: #0051FF;
 }
 .tab-info.tab-container.tab-left > .nav-tabs > li.active > a {
-  border-left-color: #00bcd4;
+  border-left-color: #0051FF;
 }
 .tab-info.tab-container.tab-right > .nav-tabs > li.active > a {
-  border-right-color: #00bcd4;
+  border-right-color: #0051FF;
 }
 .tab-info.tab-container.tab-bottom > .nav-tabs > li.active > a {
-  border-bottom-color: #00bcd4;
+  border-bottom-color: #0051FF;
 }
 .tab-inverse.tab-container > .nav-tabs > li.active > a {
   border-top-color: #757575;
@@ -23518,7 +23518,7 @@ span[data-style="panel-brown"] {
   background: #8bc34a !important;
 }
 .timeline-info .timeline-icon {
-  background: #00bcd4 !important;
+  background: #0051FF !important;
 }
 .timeline-inverse .timeline-icon {
   background: #757575 !important;
@@ -23636,7 +23636,7 @@ span[data-style="panel-brown"] {
   border: 2px solid #8bc34a !important;
 }
 .mini-timeline-info .timeline-icon {
-  border: 2px solid #00bcd4 !important;
+  border: 2px solid #0051FF !important;
 }
 .mini-timeline-inverse .timeline-icon {
   border: 2px solid #757575 !important;
@@ -24916,8 +24916,8 @@ label.icheck.checkbox {
   border-color: #e51c23;
 }
 .ui-pnotify .alert-info {
-  background-color: #00bcd4;
-  border-color: #00bcd4;
+  background-color: #0051FF;
+  border-color: #0051FF;
 }
 .ui-pnotify .alert-inverse {
   background-color: #757575;
@@ -25938,7 +25938,7 @@ ul.demo-btns > li {
   text-align: center;
 }
 .demo-options .demo-color-list .demo-cyan {
-  background-color: #00bcd4;
+  background-color: #0051FF;
 }
 .demo-options .demo-color-list .demo-light-blue {
   background-color: #03a9f4;
@@ -25986,7 +25986,7 @@ ul.demo-btns > li {
   background-color: #ff5722;
 }
 .demo-options .demo-color-list .demo-info {
-  background-color: #00bcd4;
+  background-color: #0051FF;
 }
 .demo-options .demo-color-list .demo-midnightblue {
   background-color: #37474f;
@@ -26128,7 +26128,7 @@ ul.demo-btns > li {
   cursor: pointer;
 }
 span[data-style="panel-info"] {
-  background-color: #00bcd4;
+  background-color: #0051FF;
 }
 span[data-style="panel-primary"] {
   background-color: #03a9f4;
@@ -26357,7 +26357,7 @@ span[data-style="panel-brown"] {
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info {
   color: rgba(255, 255, 255, 0.8);
-  background: #00bcd4;
+  background: #0051FF;
   box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 }
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-success,
